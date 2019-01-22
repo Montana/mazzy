@@ -1,6 +1,6 @@
 # Using Mazzy as a Stackdriver micrologging service for Prowl
 
-![Mazzy](https://img.shields.io/badge/Mazzy-Compiled-orange.svg)
+![Mazzy](https://img.shields.io/badge/mazzy-compiled-orange.svg)
 ![Mazzy Build Status](https://img.shields.io/badge/dockerbuild-automated-blue.svg)
 
 Access the Stackdriver Logging API (Google Cloud Logging APIs) via the Mazzy service.
