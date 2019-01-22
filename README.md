@@ -3,7 +3,7 @@
 ![Mazzh](https://img.shields.io/badge/mazzy-compiled-orange.svg)
 ![Docker Build Status](https://img.shields.io/badge/Dockerfile-automated-blue.svg)
 
-Access the Stackdriver Logging API (Google Cloud Logging APIs) via a Mazzy service.
+Access the Stackdriver Logging API (Google Cloud Logging APIs) via Mazzy service developed by Prowl.
 
 ## Usage
 ```coffee
@@ -15,3 +15,5 @@ logs = stackdriver entries_list projects: ['foo']
                                 page_token: 'xxxx'
 log info msg: logs
 ```
+
+Any questions or any information on Mazzy please email Montana at the following email address: inqueries@getprowl.com.
