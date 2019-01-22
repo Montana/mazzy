@@ -1,7 +1,7 @@
 # Stackdriver Logging as a microservice using Mazzy
 
 ![Mazzh](https://img.shields.io/badge/mazzy-compiled-orange.svg)
-[![Docker Build Status](https://img.shields.io/badge/Dockerfile-automated-blue.svg)
+![Docker Build Status](https://img.shields.io/badge/Dockerfile-automated-blue.svg)
 
 Access the Stackdriver Logging API (Google Cloud Logging APIs) via a Mazzy service.
 
