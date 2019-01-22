@@ -1,5 +1,5 @@
 # Stackdriver Logging as a microservice using Mazzy
-
+![Mazzy](mazzy.png)
 ![Mazzh](https://img.shields.io/badge/mazzy-compiled-orange.svg)
 ![Docker Build Status](https://img.shields.io/badge/Dockerfile-automated-blue.svg)
 
