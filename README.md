@@ -3,7 +3,7 @@
 ![Mazzy](https://img.shields.io/badge/Mazzy-Compiled-orange.svg)
 ![Mazzy Build Status](https://img.shields.io/badge/dockerbuild-automated-blue.svg)
 
-Access the Stackdriver Logging API (Google Cloud Logging APIs) via an OMG service.
+Access the Stackdriver Logging API (Google Cloud Logging APIs) via the Mazzy service.
 
 ## Usage
 ```coffee
