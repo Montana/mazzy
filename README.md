@@ -13,6 +13,7 @@ logs = stackdriver entries_list projects: ['foo']
                                 order_by: 'timestamp desc'
                                 page_size: 100
                                 page_token: 'xxxx'
+                                json_return
 log info msg: logs
 ```
 
