@@ -1,0 +1,36 @@
+mazzy: 1
+lifecycle:
+  startup:
+    command: ["python", "/app/app.py"]
+actions:
+  entries_list:
+    help: List log entries
+    http:
+      path: /entries/list
+      method: post
+      port: 8000
+      contentType: application/json
+    arguments:
+      projects:
+        type: list
+        in: requestBody
+      filter:
+        type: string
+        in: requestBody
+      order_by:
+        type: string
+        in: requestBody
+      page_size:
+        type: int
+        in: requestBody
+      page_token:
+        type: string
+        in: requestBody
+    output:
+      contentType: application/json
+      type: list
+environment:
+  GOOGLE_CREDENTIALS_JSON:
+    help: The JSON contents of your credentials.json file
+    type: string
+    required: true
