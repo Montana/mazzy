@@ -15,4 +15,4 @@ logs = stackdriver entries_list projects: ['foo']
 log info msg: logs
 ```
 
-Any questions or any information on Mazzy please email Montana at the following email address: inqueries@getprowl.com.
+Any questions or any information on Mazzy please email Montana at the following email address: opensource@getprowl.com.
