@@ -10,4 +10,4 @@ RUN         pip install -r /app/requirements.txt
 RUN         apk del build-dependencies
 ADD         mazzy.py /app
 
-ENTRYPOINT  ["python", "/app/app.py"]
+ENTRYPOINT  ["python", "/app/mazzy.py"]
