@@ -14,10 +14,13 @@ logs = stackdriver entries_list projects: ['foo']
                                 json_return: 'json output'
 log info msg: logs
 ```
-## Importing 
+## Import the Mazzy library
+
+As expected, just put it at the header of your Python project. You also need ```argparse```.
 
 ```coffee
 import mazzy
+import argparse
 ```
 
 Any questions or any information on Mazzy please email Montana at the following email address: opensource@getprowl.com.
