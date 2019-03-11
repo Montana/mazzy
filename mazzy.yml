@@ -1,7 +1,7 @@
 mazzy: 1
 lifecycle:
   startup:
-    command: ["python", "/mazzy.py"]
+    command: ["python", "mazzy.py"]
 actions:
   entries_list:
     help: List log entries
