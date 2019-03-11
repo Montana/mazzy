@@ -6,7 +6,6 @@ Access the Stackdriver Logging API (Google Cloud Logging APIs) via the Mazzy ser
 
 ## Usage
 ```coffee
-# Storyscript
 logs = stackdriver entries_list projects: ['foo'] 
                                 filter: 'advanced filters'
                                 order_by: 'timestamp desc'
