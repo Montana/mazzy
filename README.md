@@ -14,5 +14,10 @@ logs = stackdriver entries_list projects: ['foo']
                                 json_return: 'json output'
 log info msg: logs
 ```
+## Importing 
+
+```coffee
+import mazzy
+```
 
 Any questions or any information on Mazzy please email Montana at the following email address: opensource@getprowl.com.
