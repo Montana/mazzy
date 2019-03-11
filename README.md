@@ -16,7 +16,7 @@ log info msg: logs
 ```
 ## Import the Mazzy library
 
-As expected, just put it at the header of your Python project. You also need ```argparse```.
+As expected, just put it at the header of your Python project. You'll also need to import ```argparse```.
 
 ```coffee
 import mazzy
