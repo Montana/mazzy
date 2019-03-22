@@ -24,7 +24,7 @@ As expected, just put it at the header of your Python project. You'll also need 
 import mazzy
 import argparse
 ```
-You can import Mazzy also as 
+You can import Mazzy also as:
 ```coffee
 import mazzy as mazz
 ```
