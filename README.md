@@ -14,7 +14,7 @@ logs = stackdriver entries_list projects: ['foo']
                                 json_return: 'json output'
 log info msg: logs
 ```
-[![Mazzy](mazzy_working.png)
+![Mazzy](mazzy_working.png)
 
 ## Import the Mazzy library
 
