@@ -14,6 +14,8 @@ logs = stackdriver entries_list projects: ['foo']
                                 json_return: 'json output'
 log info msg: logs
 ```
+[![Mazzy](mazzy_working.png)
+
 ## Import the Mazzy library
 
 As expected, just put it at the header of your Python project. You'll also need to import ```argparse```. You can put this in the ```requirements.txt``` file, or do it manually.
